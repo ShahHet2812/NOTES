@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Introduction</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend align="center">LJU Form</legend>
+            <label for="uname">Username:</label>
+            <input type="text" placeholder="Username" id="uname" name="uname">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Password" id="pass" name="pass" maxlength="8" minlength="3" value="123">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" max="20" min="12">
+            <br><br>
+            <label for="price">Price <input name="price" type="range" max="200" min="20" value="50" step="5"></label>
+            <label for="gender">Gender <input type="radio" name="gender" value="Male" checked>Male <input type="radio" value="Female" name="gender">Female</label>
+            <br><br>
+            <label for="dob">Date of Birth <input type="date" name="dob" min="2024/10/01"></label>
+            <input type="submit" value="Submit Form">
+            <br><br>
+            <label for="subject">Subjects <input type="checkbox" name="subject" value="FSD">FSD-1
+            <input type="checkbox" name="subject" value="python">Python
+            <input type="checkbox" name="subject" value="de">DE
+            </label>
+            <br><br>
+            <label for="search">Search<input type="search" name="search" placeholder="Search"></label>
+            <label for="city">City <select name="city" id="city">
+                <option value="Ahmedabad" selected>Ahmedabad</option>
+                <option value="snager">Surendranagar</option>
+                <option value="bnagar">Bhavnagar</option>
+                <option value="baroda">Vadodra</option>
+                <optgroup label="Charotar">
+                    <option value="anand">Anand</option>
+                    <option value="vvn">Vidhyanagar</option>
+                </optgroup>
+            </select></label>
+            <label for="comments">Comments <textarea name="comments" id="comments" rows="6" cols="2">Enter your comments</textarea></label>
+            <label for="file">File <input type="file" name="file"  multiple></label>
+            <input type="image" src="virat.jpg" width="200" height="200" alt="photo">
+            <br><br>
+            <input type="reset" value="Reset Form">
+            <br><br>
+                                                                                        
+        </fieldset>
+    </form>
+</body>
+</html>
