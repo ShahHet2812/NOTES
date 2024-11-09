@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    color:blue;
+    text-align: center;
+}
+p{
+    border-style:dashed double dotted solid;
+    border-color: green purple red blue;
+}
+input[type="text"]{
+    width:200px;
+    height: 20px;
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+}
+a{
+    text-decoration: overline underline;
+}
+a:hover{
+    font-weight: 800;
+}
+#ok{
+    text-transform: capitalize;
+    text-indent: small-caps;
+}

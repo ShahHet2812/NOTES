@@ -1,0 +1,25 @@
+p{
+    font-size: 25px;
+    color:aqua;
+    background-color: blueviolet;
+    text-align: center;
+}
+p:hover{
+    font-size: 25px;
+    color: darkorange;
+    background-color: lightgreen;
+}
+#special{
+    font-size: 35px;
+    color: crimson;
+    background-color: lightblue;
+    text-align: center;
+}
+.paragraph{
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    background-color: rgb(81, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
