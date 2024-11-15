@@ -1,0 +1,56 @@
+<!-- write html and css script to design one login form having username,password,submit,reset button
+ .while hovering on each control it should be expanded around 20% horizontally and vertically.
+ width delay of 2s.expantion should take place in 4s. -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .input[type="text"]
+        {
+            height: 10%;
+            width:10%;
+            transition:width 4s,height 4s;
+            transition-delay: 2s;
+        }
+        input[type="text"]:hover{
+            width:40%;
+            height:40%;
+        }
+        .input[type="password"]{
+            transition:width 2s,height 2s;
+        }
+        input[type="password"]:hover
+        {
+            width:40%;
+            height:40%;
+        }
+        .button{
+            transition: width 2s,height 2s;
+        }
+        button:hover{
+            width:40%;
+            height:40%;
+        }
+        legend{
+            padding:20px;
+            border :1px solid rgb(255, 157, 0);
+            border-radius: 30px;
+            text-decoration: underline;
+            font-size: 30px;
+            font-weight:  bold;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend align="center">Sign Up</legend>
+            Username : <input type="text" placeholder="Enter your name"/><br><br>
+            Password : <input type="password" placeholder="Enter your password"/><br><br>
+            <button value="submit">Submit</button><br><br>
+            <button value="reset">Reset</button><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
