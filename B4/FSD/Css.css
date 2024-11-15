@@ -19,6 +19,7 @@ a{
 }
 a:hover{
     font-weight: 800;
+    cursor: grab;
 }
 #ok{
     text-transform: capitalize;
