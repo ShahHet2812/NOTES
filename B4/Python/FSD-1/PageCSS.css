@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+#p1{
+    border-style: dashed double dotted solid;
+    border-color: green purple red blue;
+}
+#p2{
+    text-decoration: overline underline;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+div{
+    border-style: solid ;
+}
+input[type=text]{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    height: 50%;
+    width: 50%;
+}
+

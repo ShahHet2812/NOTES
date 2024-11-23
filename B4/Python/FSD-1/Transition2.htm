@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 30%;
+            height: 30px;
+            background-color: yellow;
+            transition-property: width,height,background-color;
+            transition-duration: 5s,5s,8s;
+            transition-delay: 1s;
+        }
+        input:hover{
+            width: 50%;
+            height: 35px;
+            background-color: pink;
+        }
+        button{
+            padding: 10px;
+            background-color: black;
+            color: white;
+            transition-property: padding,background-color,color;
+            transition-duration: 5s,5s,5s;
+            transition-delay: 2s;
+        }
+        button:hover{
+            padding: 20px;
+            background-color: blue;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Form</legend>
+        <input type="email" id="email" placeholder="Enter Your Email.">
+        <button type="submit">Submit</button>
+    </fieldset>
+</body>
+</html>
